@@ -21,6 +21,7 @@ func SetAllUserController(r *gin.Engine) {
 	userGroup.GET("/:userId", SearchUserByUserId)
 	// List of user
 	userGroup.GET("", SearchUserList)
+	// Update user
 	userGroup.PUT("/:userId", UpdateUser)
 }
 
