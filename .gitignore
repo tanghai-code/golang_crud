@@ -14,7 +14,10 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-# Other
-go.sum
+# IDE tools
+.vscode
 .idea
 *.iml
+
+# Other
+go.sum
